@@ -11,7 +11,7 @@ export const StoryHeader: FC<StoryHeaderProps> = ({ story }) => {
 			<div className="rank">{`${story.id}.`}</div>
 			<div className="upvote"><i className="upvote fas fa-caret-up"></i></div>
 			<div className="title">{story.title}</div>
-			<div className="link">{`(${story.link})`}</div>
+			<div className="link"><a href="/">{`(${story.link})`}</a></div>
 		</div>
 	);
 };
