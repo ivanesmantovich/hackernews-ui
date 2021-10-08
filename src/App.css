@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Header styles */
+
+.header {
+	display: flex;
+	background-color: #ff6602;
+	font-size: 1.2rem;
+	padding: 2px 0px;
+    height: 25px;
+    margin-bottom: 12px;
+}
+
+.logo {
+	height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.headerTitle {
+	font-weight: bold;
+}
+
+.header a {
+	color: black;
+	text-decoration: none;
+}
+
+.header div {
+	margin: 0 4px;
+}
+
+/* Header styles */
+
+body {
+	background-color: #eceaec;
+	font-family: 'Roboto', sans-serif;
+}
+
+.storyListItem div {
+	display: flex;
+	flex-wrap: wrap;
+	white-space: nowrap;
+	margin-bottom: 1px;
+}
+
+.storyListItem div div {
+	margin: 0 4px;
+}
+
+.rank,
+.link,
+.storyFooter,
+.upvote {
+	color: #5a5760;
+}
+
+.title,
+.rank {
+	font-size: 1.2rem;
+}
+
+.link {
+	padding-top: 6px;
+}
+
+.upvote {
+	padding-top: 2px;
+}
+
+.link,
+.storyFooter {
+	font-size: 0.9rem;
+}
+
+.storyFooter {
+	margin-left: 40px;
+}
